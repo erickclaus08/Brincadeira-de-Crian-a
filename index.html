@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brinquedos Infantis - Divertudo</title>
+</head>
+<body>
+    <header>
+        <h1>Brincadeira de Criança</h1>
+        <p>Diversão e aprendizado para todas as idades!</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#brinquedos">Brinquedos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#tabela">Tabela de Preços</a></li>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="inicio" class="section">
+            <h2>Bem-vindo à Brincadeira de Criança!</h2>
+            <p>Encontre os melhores brinquedos educativos e divertidos para crianças de todas as idades. Nossa missão é proporcionar momentos de alegria e aprendizado.</p>
+        </section>
+        
+        <section id="brinquedos" class="section">
+            <h2>Nossos Brinquedos</h2>
+            <div class="brinquedos-container">
+                <div class="brinquedo-card">
+                    <img src="https://images.tcdn.com.br/img/img_prod/1142755/carrinho_de_controle_remoto_1_18_off_road_spirit_beasts_laranja_556629_fratelli_13446_1_2bd9a0011b43929e70f32fddc1baf96a.jpg" alt="Carrinho de Brinquedo">
+                    <h3>Carrinho de Controle Remoto</h3>
+                    <p>Perfeito para crianças a partir de 3 anos. Desenvolve coordenação motora.</p>
+                    <p class="preco">R$ 89,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Carrinho de Controle Remoto', 89.90)">Comprar</button>
+                </div>
+                
+                <div class="brinquedo-card">
+                    <img src="https://ecclesiae.com.br/image/cache/data/api/produtos/33272-515x800.jpg?1735324273" alt="Quebra-Cabeça">
+                    <h3>Quebra-Cabeça 100 peças</h3>
+                    <p>Estimula o raciocínio lógico e a paciência. Tema: Moana 2.</p>
+                    <p class="preco">R$ 59,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Quebra-Cabeça 100 peças', 39.90)">Comprar</button>
+                </div>
+                
+                <div class="brinquedo-card">
+                    <img src="https://a-static.mlcdn.com.br/800x560/boneca-luvabella-interativa-e-fala-portugues-original-sunny-spin-master/japacolecionaveis/2109p/a68ee3065d627162efe48feab60dbf0c.jpeg" alt="Boneca">
+                    <h3>Boneca Interativa</h3>
+                    <p>Fala e canta, acompanha acessórios. Indicado para crianças a partir de 2 anos.</p>
+                    <p class="preco">R$ 129,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Boneca Interativa', 129.90)">Comprar</button>
+                </div>
+                
+                <div class="brinquedo-card">
+                    <img src="https://cdn.awsli.com.br/600x450/2437/2437567/produto/164351869/0e6926595c.jpg" alt="Blocos de Montar">
+                    <h3>Blocos de Montar 120 peças</h3>
+                    <p>Desenvolve criatividade e habilidades motoras. Cores vibrantes e peças seguras.</p>
+                    <p class="preco">R$ 78,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Blocos de Montar 120 peças', 79.90)">Comprar</button>
+                </div>
+            
+                <div class="brinquedo-card">
+                    <img src="https://cdn.awsli.com.br/405/405408/produto/234170817/3-693by5kp9f.jpg" alt="Playground Infantil">
+                    <h3>Playground Infatil</h3>
+                    <p>Fortalece a musculatura e os ossos, melhora a coordenação motora, o equilíbrio e a postura corporal.</p>
+                    <p class="preco">R$ 890,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Playground Infantil', 890.90)">Comprar</button>
+                </div>
+
+                <div class="brinquedo-card">
+                    <img src="https://m.media-amazon.com/images/I/617W-pE-E7L.jpg" alt="Teclado Musical Infantil">
+                    <h3>Teclado Musical Infantil</h3>
+                    <p>Ajuda desenvolver habilidades cognitivas, socioemocionais, motoras e linguísticas. Estimula a criatividade e a expressão corporal.</p>
+                    <p class="preco">R$ 149,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Teclado Musical Infantil', 149.90)">Comprar</button>
+                </div>
+
+                <div class="brinquedo-card">
+                    <img src="https://cdn.awsli.com.br/600x450/444/444354/produto/247815507/estacao-oficina-e-posto-de-combustivel-brinquedos-tuk-tuk-brinquedos-de-madeira--bniq4cbw6v.png" alt="Oficina Mecânica Infantil">
+                    <h3>Oficina Mecânica Infatil</h3>
+                    <p>Desenvolve a criatividade e habilidades motoras. Cores vibrantes e peças seguras.</p>
+                    <p class="preco">R$ 99,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Oficina Mecânica Infatil', 99.90)">Comprar</button>
+                </div>
+
+                <div class="brinquedo-card">
+                    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ly3y5c0d3ztj29" alt="Triciclo Velocipede Com Empurrador Bebe">
+                    <h3>Triciclo Velocipede Com Empurrador Bebe</h3>
+                    <p>Desenvolve habilidades cognitivas. Cores vibrantes.</p>
+                    <p class="preco">R$ 339,90</p>
+                    <button class="btn" onclick="adicionarAoCarrinho('Triciclo Velocipede Com Empurrador Bebe', 339.90)">Comprar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contato" class="section">
+            <h2>Fale Conosco</h2>
+            <div class="form-container">
+                <form id="contatoForm">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto">
+                            <option value="duvida">Dúvida</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="elogio">Elogio</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id="tabela" class="section">
+            <h2>Tabela de Preços</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Brinquedo</th>
+                        <th>Faixa Etária</th>
+                        <th>Preço</th>
+                        <th>Estoque</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Carrinho de Controle Remoto</td>
+                        <td>3+ anos</td>
+                        <td>R$ 89,90</td>
+                        <td>15 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Quebra-Cabeça 100 peças</td>
+                        <td>5+ anos</td>
+                        <td>R$ 39,90</td>
+                        <td>22 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Boneca Interativa</td>
+                        <td>2+ anos</td>
+                        <td>R$ 129,90</td>
+                        <td>8 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Blocos de Montar 120 peças</td>
+                        <td>4+ anos</td>
+                        <td>R$ 79,90</td>
+                        <td>18 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Bicicleta Infantil</td>
+                        <td>3-6 anos</td>
+                        <td>R$ 249,90</td>
+                        <td>5 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Brinquedo Bombeirinho</td>
+                        <td>3+ anos</td>
+                        <td>R$ 63,90</td>
+                        <td>32 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Caixa de Ferramentas de Brinquedo</td>
+                        <td>4+ anos</td>
+                        <td>R$ 39,90</td>
+                        <td>11 unidades</td>
+                    </tr>
+                    <tr>
+                        <td>Torre de Arco-Íris Colorido</td>
+                        <td>2+ anos</td>
+                        <td>R$ 29,90</td>
+                        <td>8 unidades</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="quem-somos" class="section">
+            <h2>Quem Somos</h2>
+            <div class="quem-somos">
+                <img src="https://backup.tribunadonorte.com.br/fotos/203995.jpg" alt="Nossa Loja">
+                <div class="quem-somos-text">
+                    <h3>Nossa História</h3>
+                    <p>A Brincadeira de Criança nasceu em 2025 com o objetivo de oferecer brinquedos que unissem diversão e educação. Acreditamos que brincar é fundamental para o desenvolvimento das crianças.</p>
+                    <p>Nossa equipe é formada por educadores e especialistas em desenvolvimento infantil, que selecionam cuidadosamente cada produto que oferecemos em nossa loja.</p>
+                    <h3>Missão</h3>
+                    <p>Proporcionar experiências lúdicas que contribuam para o desenvolvimento integral das crianças, oferecendo produtos de qualidade e segurança comprovada.</p>
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>Segurança em primeiro lugar</li>
+                        <li>Educação através do brincar</li>
+                        <li>Qualidade comprovada</li>
+                        <li>Atendimento personalizado</li>
+                    </ul>
+                </div>
+            </div>
+            <audio controls hidden autoplay loop src="/assets/audio/comercomer.mp3.mp3"></audio> 
+<script src="main.js"></script>  
+        </section>
+    </div>
+    
+    <footer>
+        <p>© 2025 Brincadeira de Criança. Todos os direitos reservados.</p>
+        <p>Endereço: Av Santos Dumont, 66 - Coroa do Meio - Aracaju/SE</p>
+        <p>Telefone: (79) 91234-5678 | Email: contato@brincadeiradecrianca.com.br</p>
+    </footer>
+</body>
+</html>
